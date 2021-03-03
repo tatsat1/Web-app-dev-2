@@ -1,0 +1,327 @@
+/* File Name : app.css
+    Student Name : Tatsat Tendulkar
+    Student Id   : 301166880
+
+/* custom css goes here*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Ubuntu:wght@400;500;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}*
+.max-width{
+    max-width: 850px;
+    padding: 0 -85px;
+    margin: auto;
+}
+
+
+body{
+    background-color: rgba(255, 8, 8, 0.904);
+    color: rgb(226, 8, 172), 31, 31;
+    font-weight: 300;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.home{
+    display: grid;
+    height: 110vh;
+    color: cornsilk;
+    min-height: 50px;
+    font-family: 'Ubuntu',sans-serif;
+}
+.home-content{
+    color: burlywood;
+    font-size: large;
+    text-shadow: 3px 3px #240101;
+    
+}
+.home .max-width{
+    margin: auto 0 50px;
+}
+.home .home-content .text-1{
+    font-size:70px;
+    margin: 10px 0;
+    color: crimson;
+    background-color: transparent;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    margin-top: 40px;
+    transition: .3s ease;
+    transition-property: background-color, color;
+}
+.home .home-content .text-2{
+    font-size: 60px;
+    margin: 10px 0;
+    color:lightgoldenrodyellow
+}
+.home .home-content .text-3{
+    font-size:70px;
+    font-weight: 650;
+    margin-left: -4px;  
+    color: red;
+    text-shadow: 3px 3px #0303038e
+}
+.home .home-content .text-4{
+    font-style: italic;
+    color: cyan;
+    margin-left: -4px;
+    
+}
+.home_img{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 300px;
+    
+}
+.btn-1{
+    padding: 15px 30px;
+    font-size: 25px;
+    font-weight: 550;
+    background-color:silver;
+    color: var(--skin color);
+    background-color: gray;
+    line-height: 1.5;
+    cursor: pointer;
+    border-radius: 35px;
+    transition: all 0.3s ease;
+    display: inline-block;
+
+}
+
+.mission{
+    font-size: 25px;
+    font-weight: 550;
+    background-color:black;
+    margin-top: 0 4px 9px;
+    margin-bottom: 0 4px 9px;
+    border-bottom: white;
+}
+
+ 
+/************about me***********/
+.about-section{
+    padding: 15px 2 15px;
+    min-height: 15vh;
+}
+.section-title{
+    padding: 0 20px;
+    flex:0 0 120%;
+    max-width: 120%;
+    text-align: center;
+    margin-bottom: 70px;
+}
+.section-title h2{
+    display: inline-block;
+    font-size: 35px;
+    font-weight: 750;
+    color: var(--text-black-900);
+    text-transform: uppercase;
+    margin:0;
+}
+.section-title h2:before{
+    content: attr(data-heading);
+    display:block;
+    font-size: 20px;
+    font-weight: 650;
+    color: blue;
+}
+.about-section{
+    padding: 85px 0 85px;
+    min-height: 110vh;
+}
+.about-section .about-img{
+    flex:0 0 45%;
+    max-width: 45%;
+    padding:0 20px;
+}
+.about-section .about-img .img-box{
+    padding: 20px;
+}
+.about-section .about-img .img-box{
+    width: 110%;
+    border:15px solid transparent;
+    border-radius: 10px;
+}
+.about-section .about-info{
+    flex:0 0 65%;
+    max-width: 65%;
+    padding:0 20px;
+}
+.about-section .about-info p{
+    font-size: 25px;
+    line-height: 30px;
+    margin-bottom: 20px;
+    color:red;
+}
+.about-section .about-info span{
+    font-weight: 850;
+}
+.about-section .about-info .btn-1{
+    margin: 25px 25px 0 0;
+    color: black;
+}
+.about-section .about-img .social-links{
+    margin-top: 35px;
+    text-align: center;
+}
+.about-section .about-img .social-links a{
+    display: inline-block;
+    height: 55px;
+    width: 50px;
+    font-size: 35px;
+    text-align: center;
+    line-height: 45px;
+    color: blue;
+    border-radius: 55%;
+    margin: 0 5px;
+    transition: all 0.3s ease;
+}
+.about-section .about-img .social-links a::after{
+    border-radius: 55%;
+}
+.about-section .other-links .btn-1{
+    margin: 35px 25px 0 0;
+    color: blue;
+
+}
+body {
+    background: burlywood
+}
+
+.ratings i {
+    color: green
+}
+
+.install span {
+    font-size: 14px
+}
+
+.col-md-4 {
+    margin-top: 30px
+}
+.contactme{
+    position: relative;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    background: black;
+}
+.contactme::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    background: black
+}
+.contactme .container{
+    position: relative;
+    min-height: 1150px;
+    min-width: 600px;
+    display: flex;
+    z-index: 1000;
+}
+.contactme .container .contactinfo{
+    position: absolute;
+    top: 45px;
+    width:400px;
+    height: calc(100% - 80px);
+    background: blue;
+    z-index: 1;
+    padding: 45px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 0 25px 25px rgba(0, 0, 0, 0.2);
+}
+.contactme .container .contactinfo h2{
+    color : #fff;
+    font-size: 25px;
+    font-weight: 550;
+}
+.contactme .container .contactinfo .info{
+    position: relative;
+    margin: 25px 0;
+
+}
+.contactme .container .contactinfo .info li{
+    position: relative;
+    list-style: none;
+    display: flex;
+    margin: 25px 0;
+    cursor: pointer;
+    align-items: flex-start;
+}
+.contactme .container .contactinfo .info li span:nth-child()
+{
+    width: 35px;
+    min-width: 35px;
+
+}
+.contactme .container .contactinfo .info li span:nth-child()
+{
+    max-width: 110%;
+    filter:invert(1);
+    opacity: 0.5;
+}
+
+
+
+/* Center website */
+.main {
+  max-width: 1010px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 55px;
+  word-break: break-all;
+}
+
+.row {
+  margin: 10px -16px;
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+  padding: 10px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+}
+
+/* Clear floats after rows */ 
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color: white;
+  padding: 12px;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+  .column {
+    width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}

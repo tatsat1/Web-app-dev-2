@@ -1,0 +1,87 @@
+<!-- File Name   : project.ejs
+    Student Name : Tatsat Tendulkar
+    Student Id   : 301166880
+
+
+
+<%- include partials/header.ejs %>
+
+
+<%- include partials/main_nav.ejs  %>
+
+
+<!--Main Content--> 
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<main class="container">
+<div class="jumbotron jumbotron-fluid">
+    <h1 class="display-7">Welcome to the <%= title %> page</h1>  
+</div>
+<div class="main">
+
+<hr>
+
+<h2 style="background-color:darkblue; color: red; text-align: center;">My Projects</h2>
+
+
+<!-- Portfolio Gallery Grid -->
+<div class="row">
+  <div class="column">
+    <div class="content">
+      <img src="image/IMG4.png" alt="" style="width:100%">
+      <p style="background-color:violet;"> Text Adventure Game <p>
+      <p>The Medieval Quest is a 2D text adventure game made in Unity, 
+        The main aim of the player is to escape the palace with
+        sensitive information. The player has multiple choices
+        and based on these choices the endings will aslo be different</p>
+        <p> I made the entire game,designed the 2D assets,wrote the scripts for the game and aslo provided the story for the game. </p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <img src="image/render_final2.png" style="width:100%">
+      <p style="background-color:tomato;">Low-Poly Design<p>
+      <p>The Low Poly Barbecue scene was made using Blender.
+        It is a 3D model that depicts a barbecue scene with multiple assets and lighting.</p>
+       <p>The entire 3D model was made by me and the lighting and rendering was also done by me.</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <img src="image/IMG5.png" style="width:100%">
+      <p style="background-color:tomato;">High poly Design<p>
+      <p>The High Poly engineer's room was made using Blender and Unity.
+        It is a 3D model that depicts an engineer's room with multiple assets and realtime lighting.</p>
+       <p>The entire 3D model was made by me and the lighting and rendering was also done by me.</p>
+    </div>
+  </div>
+  
+<!-- GRID COMPLETE -->
+</div>
+
+
+
+<!--  MAIN COMPLETE -->
+</div>
+
+</body>
+</html>
+
+
+<html>
+<head>
+<style>
+body {
+background-image: url("image/IMG3.jpeg");
+background-color: black;
+}
+
+</style>
+</head>
+</html>
+
+
+<%- include partials/bottom_nav.ejs %>
+
+<%- include partials/footer.ejs %>
